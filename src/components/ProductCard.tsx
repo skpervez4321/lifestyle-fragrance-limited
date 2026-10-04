@@ -24,7 +24,7 @@ function ProductCard({ product }: Props) {
         </Link>
         <Link
           to={`/product/${product.id}`}
-          className="flex-1 text-center bg-gradient-to-r from-pink-500 to-violet-500 text-white py-2 rounded-full font-medium"
+          className="flex-1 text-center bg-gradient-to-r from-pink-500 to-violet-500 text-white py-2 rounded-full font-medium transition-shadow duration-300 hover:shadow-[0_0_16px_2px_rgba(139,92,246,0.6)]"
         >
           Order Now
         </Link>
